@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <style>
+    .tb1 {
+      border: 2px solid gray;
+      width: 400px;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid gray;
+    }
+    td {
+      text-align: center;
+    }
+
+    thead {
+      background-color: rgb(243, 220, 220);
+    }
+    tbody tr:nth-child(2n) {
+      background-color: rgb(219, 205, 205);
+    }
+    tbody tr:nth-child(2n + 1) {
+      background-color: rgba(112, 146, 175, 0.692);
+    }
+    tbody tr:hover {
+      background-color: aliceblue;
+    }
+    /* tbody td:hover {
+      background-color: aliceblue;
+    } */
+    tbody td:hover {
+      color: rgb(226, 9, 9);
+    }
+  </style>
+  <body>
+    <table class="tb1">
+      <caption>
+        <h2>表格標題</h2>
+      </caption>
+      <thead>
+        <tr>
+          <th>標題1</th>
+          <th>標題2</th>
+          <th>標題3</th>
+          <th>標題4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">colspan</td>
+          <td colspan="2">colspan</td>
+          <!-- <td>3</td> -->
+          <!-- <td>4</td> -->
+        </tr>
+        <tr>
+          <td rowspan="2">rowspan</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <!-- <td>2</td> -->
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
