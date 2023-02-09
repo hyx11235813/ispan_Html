@@ -1,0 +1,20 @@
+.list1 {
+  list-style-type: circle;
+}
+.list2 {
+  list-style-type: none;
+  /* list-style-image:url(); */
+}
+.in {
+  background-color: blueviolet;
+  list-style-position: inside;
+}
+.out {
+  background-color: blueviolet;
+  list-style-position: outside;
+}
+.list1 {
+  border-style: dotted;
+  border-color: rgb(68, 87, 30);
+  border-radius: 20px;
+}

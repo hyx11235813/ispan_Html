@@ -1,0 +1,37 @@
+.st1 {
+  color: goldenrod;
+}
+h2.st1 {
+  color: gray;
+}
+.st2 {
+  color: yellowgreen;
+  text-transform: lowercase;
+}
+h3.st2 {
+  color: blue;
+}
+.col1 {
+  color: rgb(0, 0, 0);
+}
+.col2 {
+  color: violet;
+}
+.size1 {
+  font-size: 30px;
+}
+.size2 {
+  font-size: 3rem;
+}
+.trans1 {
+  text-transform: uppercase;
+}
+.sty1 {
+  font-style: italic;
+}
+#color2 {
+  color: black;
+}
+p {
+  color: burlywood;
+}
